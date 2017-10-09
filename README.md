@@ -39,7 +39,9 @@ size_t Count();
 
 // Obtiene el indice del ultimo elemento almacenado
 size_t LastIndex();
-</pre>
+
+// Devuelve true si el número de elementos del último paquete es mayor que la capacidad
+bool IsOverflow();
 ```
 
 
