@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map EasyComma
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+EasyComma KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################º
+Separator	KEYWORD2
+EndSeparator	KEYWORD2
+Capacity	KEYWORD2
+LastIndex	KEYWORD2
+Count	KEYWORD2
+IsOverflow	KEYWORD2
+Recieve	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
