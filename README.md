@@ -48,3 +48,23 @@ bool IsOverflow();
 ## Ejemplos
 La librería EasyComma incluye los siguientes ejemplos para ilustrar su uso.
 * EasyComma: Ejemplo general de uso de la clase EasyComma.
+
+```c++
+#include "EasyCommaLib.h"
+
+EasyComma easyComma(4);
+
+void setup() 
+{
+  Serial.begin(9600);
+}
+
+void loop() 
+{
+  easyComma.Recieve(
+  []() {  
+    auto servoNum = easyComma[0];
+    auto delayMs = easyComma[1];
+  });
+}
+```
